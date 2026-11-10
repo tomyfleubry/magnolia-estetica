@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tomyfleubry.github.io/magnolia-estetica/sitemap.xml
