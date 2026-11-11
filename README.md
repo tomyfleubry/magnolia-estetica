@@ -14,9 +14,11 @@ Antes de publicar una actualización, comprobar el contenido, las imágenes, los
 
 ## Fotografías
 
-Las dos fotografías son ilustrativas de Pexels, bajo su [licencia](https://www.pexels.com/license/). No representan instalaciones, profesionales ni equipos propios de Magnolia.
+Las tres fotografías son ilustrativas de Pexels, bajo su [licencia](https://www.pexels.com/license/). No representan instalaciones, profesionales ni equipos propios de Magnolia.
 
 - Hero: [Pexels 29021129](https://www.pexels.com/photo/professional-laser-hair-removal-treatment-session-29021129/), Pexels User, optimizada en `assets/tratamiento-laser.webp`.
 - Junto a «Este curso es para vos si»: [Pexels 35103882](https://www.pexels.com/photo/professional-laser-hair-removal-treatment-session-35103882/), Larysa Stratiichuk, optimizada en `assets/practica-laser.webp`.
+
+- Servicios: [Pexels 6187298](https://www.pexels.com/photo/person-s-hands-massaging-a-person-s-face-6187298/), Tima Miroshnichenko, optimizada en `assets/tratamiento-facial.webp`.
 
 El wordmark tipográfico se reemplazará por el logo propio cuando Magnolia lo facilite. Las fotos podrán reemplazarse por material propio autorizado.
