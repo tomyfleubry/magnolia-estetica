@@ -27,7 +27,7 @@ No existe assets/logo-magnolia.png ni assets/logo-magnolia.svg. Se conserva el w
 
 ## Fotografías
 
-Pexels, optimizadas en WebP dentro de assets. No son imágenes del local ni del equipo de Magnolia. Por indicación de Tomas se retiran las tres leyendas visibles de las fotos y el footer, sin sustituirlas por otra aclaración. Se conservan los alt existentes y ambas fotos previas.
+Pexels, optimizadas en WebP dentro de assets. No son imágenes del local ni del equipo de Magnolia. Por indicación de Tomas se retiran las tres leyendas visibles de las fotos y el footer, sin sustituirlas por otra aclaración. Las fotos se conservan; los alt y og:image:alt describen la imagen sin calificarla como ilustrativa.
 
 | Archivo | Fuente | Ubicación |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ La foto nueva se abrió y eligió antes de editar HTML. Va a la izquierda de las
 - Se conserva literalmente el aval: Lic. en Kinesiología y Fisioterapia Diego María Soledad (MN 1501), con Nimsí Garro, Técnica Operadora Láser. Certificación de cursado, sin ampliar su alcance.
 - Presencial, dos días, fines de semana; fecha de próxima edición pendiente. Granaderos 994, M5500, Mendoza. Lunes a sábado 8:00–22:00, domingo cerrado. Instagram @magnoliaestetica.salud; teléfono +54 261 600-5095.
 - **Todos los destinos de WhatsApp: https://wa.link/4gjjbp, sin parámetros.** No se usan enlaces wa.me ni mensajes prefijados propios.
-- La base actualizada main 0a51821 contiene tres botones: tarjeta de capacitación, contacto y flotante. No existe el cuarto botón citado al cierre del temario. Se conserva la estructura, sin agregarlo.
+- Cuatro botones de WhatsApp: tarjeta de capacitación, cierre del temario, contacto y flotante. El del temario se incorpora por pedido explícito de la mini-corrida y reutiliza el estilo existente y el símbolo oficial, sin parámetros en el destino.
 - «+32 ediciones» no está en el HTML ni en el repo base. No fue necesario eliminarlo o sustituirlo. Los datos restantes se revisan contra el material aprobado.
 - Símbolo único i-wa y path oficial intactos; flotante 58 px con ícono blanco 28 px, íconos interiores 20 px. Mismas formas, tamaños y ubicación.
 
@@ -66,7 +66,7 @@ GSAP 3.15.1, ScrollTrigger y Lenis 1.3.27 sin cambios ni librerías nuevas. Mism
 
 ## Verificación
 
-Revisar capturas a 430 px y escritorio: pilares y servicios apilados, FAQ sin columna vacía, titular completo, botón del hero en una línea, sin scroll horizontal y botón de cierre libre del flotante. Comparar todos los textos y datos con el HTML base, descontando únicamente las leyendas retiradas y la conversión de temas a lista. Verificar los tres destinos exactos, el símbolo intacto y las fotos originales sin cambios. Repetir sobre URL en vivo.
+Revisar capturas a 430 px y escritorio: pilares y servicios apilados, FAQ sin columna vacía, titular completo, botón del hero en una línea, sin scroll horizontal y botón de cierre libre del flotante. Comparar textos y datos con el HTML base, descontando los cambios expresamente solicitados. Verificar los cuatro destinos exactos, el símbolo intacto y las fotos originales sin cambios. Repetir sobre URL en vivo.
 
 La revisión local renderizada pasó en 320, 390, 430, 768 y 1440 px. A 430 px se verificaron los cuatro pilares apilados, las filas de Servicios, los ocho temas visibles, la FAQ de una columna, el hero completo y su botón en una línea, ausencia de scroll horizontal y separación entre el flotante y el botón del cierre. Se corrigieron el layout de Servicios para incorporar su foto y la grilla de FAQ para eliminar el vacío lateral. El hero ya entraba correctamente y no necesitó cambiar su tipografía ni tamaño.
 
@@ -74,4 +74,18 @@ La comparación automática confirmó que el resto de textos, datos, secciones y
 
 ## Desvíos y diferencias del pedido
 
-No se realizaron cambios fuera de los ocho puntos. Se reportan las diferencias encontradas: tres enlaces en vez de cuatro, ausencia del dato de ediciones y falta de logo real. No se crean el botón ni el logo ausentes. La documentación de fuentes en README y el color del favicon se actualizan como parte de la foto añadida y del cambio integral de paleta.
+La ronda violeta no realizó cambios fuera de sus ocho puntos. La mini-corrida posterior agrega explícitamente el cuarto botón. Sigue pendiente el logo real. No hay desvíos adicionales.
+
+## Mini-corrida: tres faltantes — 11 de noviembre de 2026
+
+Base: 95e8843. Se limita a estos puntos:
+
+- Fundamentos: «Potencia, fluencia (J/cm²), duración del pulso y spot size».
+- Tipos de láser: «Contraindicaciones y precauciones», conservando bioseguridad y elementos de protección en la misma viñeta.
+- Práctica intensiva: «Frecuencia de sesiones» junto a los protocolos por zona.
+- Al cierre del temario, botón «Consultar por esta capacitación» hacia https://wa.link/4gjjbp, sin parámetros, con las clases button/button-wa y uso del símbolo i-wa existente. Su regla local solo separa el botón del acordeón y ajusta padding y tamaño de texto para que entre en una línea.
+- Alt del hero, de la foto junto a «Este curso es para vos si» y og:image:alt descriptivos, sin la palabra solicitada a eliminar. El alt de Servicios ya cumplía: permanece intacto.
+
+Paleta, fotos, JavaScript, enlaces anteriores, resto de textos y secciones intactos. Se verifica el botón nuevo a 430 px (una línea, sin desborde ni superposición) antes de publicar y sobre la URL en vivo. Sin video.
+
+Verificación local aprobada en 430, 1440 y 320 px. En 430 px el botón mide aproximadamente 267 × 52 px, su etiqueta ocupa una sola línea y queda separado del último módulo, de Servicios y del flotante. No hay scroll horizontal. La comparación con el HTML anterior confirmó que solo cambiaron los tres datos del temario, el nuevo botón con su CSS local y los tres atributos alternativos. Los cuatro destinos son exactos y el símbolo oficial permanece intacto.
