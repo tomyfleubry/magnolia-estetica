@@ -1,6 +1,6 @@
 # Magnolia — revisión violeta de marca
 
-Página real e indexable de Magnolia, Mendoza. Se conserva el contenido aprobado, el orden de las secciones, Italiana y Manrope. Capacitación protagonista; servicios informativos, sin reservas ni precios.
+Página real e indexable de Magnolia, Mendoza. Se conserva el contenido aprobado, Italiana y Manrope. Capacitación protagonista; servicios informativos, sin reservas ni precios. La mejora del 12 de noviembre acerca el resumen comercial y la consulta al inicio, y mueve las preguntas frecuentes junto a la capacitación.
 
 El diseño original se definió antes del código. Este sistema de retoque también se documenta antes de modificar HTML y responde exclusivamente a los ocho puntos de Tomas.
 
@@ -58,7 +58,7 @@ La foto nueva se abrió y eligió antes de editar HTML. Va a la izquierda de las
 - Se conserva literalmente el aval: Lic. en Kinesiología y Fisioterapia Diego María Soledad (MN 1501), con Nimsí Garro, Técnica Operadora Láser. Certificación de cursado, sin ampliar su alcance.
 - Presencial, dos días, fines de semana; fecha de próxima edición pendiente. Granaderos 994, M5500, Mendoza. Lunes a sábado 8:00–22:00, domingo cerrado. Instagram @magnoliaestetica.salud; teléfono +54 261 600-5095.
 - **Todos los destinos de WhatsApp: https://wa.link/4gjjbp, sin parámetros.** No se usan enlaces wa.me ni mensajes prefijados propios.
-- Cuatro botones de WhatsApp: tarjeta de capacitación, cierre del temario, contacto y flotante. El del temario se incorpora por pedido explícito de la mini-corrida y reutiliza el estilo existente y el símbolo oficial, sin parámetros en el destino.
+- Cinco botones de WhatsApp: hero, tarjeta de capacitación, cierre del temario, contacto y flotante. El del hero se incorpora en la mejora del 12 de noviembre. Todos reutilizan el símbolo oficial, sin parámetros en el destino.
 - «+32 ediciones» no está en el HTML ni en el repo base. No fue necesario eliminarlo o sustituirlo. Los datos restantes se revisan contra el material aprobado.
 - Símbolo único i-wa y path oficial intactos; flotante 58 px con ícono blanco 28 px, íconos interiores 20 px. Mismas formas, tamaños y ubicación.
 
@@ -91,3 +91,18 @@ Base: 95e8843. Se limita a estos puntos:
 Paleta, fotos, JavaScript, enlaces anteriores, resto de textos y secciones intactos. Se verifica el botón nuevo a 430 px (una línea, sin desborde ni superposición) antes de publicar y sobre la URL en vivo. Sin video.
 
 Verificación local aprobada en 430, 1440 y 320 px. En 430 px el botón mide aproximadamente 267 × 52 px, su etiqueta ocupa una sola línea y queda separado del último módulo, de Servicios y del flotante. No hay scroll horizontal. La comparación con el HTML anterior confirmó que solo cambiaron los tres datos del temario, el nuevo botón con su CSS local y los tres atributos alternativos. Los cuatro destinos son exactos y el símbolo oficial permanece intacto.
+
+## Recorrido de consulta — 12 de noviembre de 2026
+
+Dirección definida antes de editar el HTML, a pedido de Tomas. Refinamiento de la página existente, sin identidad ni contenido comercial nuevos.
+
+- **Hero:** misma foto `assets/tratamiento-laser.webp`, titular, bajada, logo, Italiana y velo violeta oscuro. En celular la altura se adapta al contenido, con menos espacio vacío superior; el velo se refuerza para conservar contraste al subir el titular a una parte más clara de la foto. Resumen visible sobre la foto: presencial en Mendoza, 2 días, $280.000 y seña de $20.000. Texto blanco; etiquetas lila claro. Precio informativo, sin cobro ni reserva automática.
+- **Acciones del hero:** principal «Consultar por el curso» con el símbolo oficial existente y https://wa.link/4gjjbp. Fondo violeta oscuro y texto blanco para mantener contraste con una etiqueta de tamaño normal. Secundario «Ver la capacitación» anclado a la sección existente. El acceso al estudio se conserva en la navegación.
+- **Capacitación:** mismos textos y tarjeta lila. La tarjeta de inscripción se lee antes de las jornadas en celular, y a su derecha en escritorio. Una lista breve sobre la superficie oscura destaca los datos ya aprobados: práctica con modelo y Soprano Ice Platinum; insumos y catering incluidos; evaluación teórica y práctica.
+- **Preguntas frecuentes:** se trasladan completas inmediatamente después de Capacitación. Mismas seis preguntas y respuestas, fondo general #FBF8FC y acordeones nativos. El resto de las secciones mantiene su orden relativo.
+- **Paleta, fotos y componentes:** se conservan #FBF8FC, #3E2A47, #A389B0 y #E8BBE2, las tres fotos existentes, el logo original y los símbolos SVG. No se descargan imágenes, no se incorporan librerías y no se modifican las animaciones ni el flotante.
+- **Pendientes de Nimsi:** fotos reales de clases y práctica, presentación y nombres de docentes, próxima fecha y horarios de cursado, requisitos de ingreso, organización de la práctica y muestra del certificado. Opiniones de alumnas y seguimiento posterior solo si se confirman. No se incorporan suposiciones a la página.
+
+Verificación prevista: página renderizada a 430 px y escritorio, control adicional de 320 px, resumen y consulta tempranos, todos los botones en una línea, sin desborde ni superposiciones, FAQ y temario idénticos a la base, cinco destinos oficiales, fotos y logo sin cambios, contenido completo sin JavaScript y con movimiento reducido. Publicación en main, verificación en vivo y sin video.
+
+La revisión local pasó en 320, 430, 768 y 1440 px, sin errores de JavaScript ni desborde horizontal. En 430 × 932 px el resumen empieza a 439 px y el botón principal termina a 639 px: ambos están dentro de la primera pantalla. La FAQ conserva exactamente sus seis respuestas, el temario sus siete módulos y los cinco enlaces apuntan al destino oficial. Se probó el teclado en los acordeones, el salto del hero con margen de 100 px, movimiento reducido y lectura sin JavaScript. La inspección visual detectó y corrigió el contraste del hero móvil al adelantar su texto. No se cambian datos, condiciones comerciales ni destinos de consulta. Sin desvíos respecto de los ajustes autorizados.
