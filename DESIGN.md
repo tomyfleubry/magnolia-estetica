@@ -1,6 +1,6 @@
 # Magnolia — revisión violeta de marca
 
-Página real e indexable de Magnolia, Mendoza. Se conserva el contenido aprobado, Italiana y Manrope. Capacitación protagonista; servicios informativos, sin reservas ni precios. La mejora del 12 de noviembre acerca el resumen comercial y la consulta al inicio, y mueve las preguntas frecuentes junto a la capacitación.
+Página real e indexable de Magnolia, Mendoza. Se conserva el contenido aprobado y Manrope; Lora 500 sustituye a Italiana por pedido de Tomas. Capacitación protagonista; servicios informativos, sin reservas ni precios. La mejora del 12 de noviembre acerca el resumen comercial y la consulta al inicio, y mueve las preguntas frecuentes junto a la capacitación.
 
 El diseño original se definió antes del código. Este sistema de retoque también se documenta antes de modificar HTML y responde exclusivamente a los ocho puntos de Tomas.
 
@@ -21,7 +21,7 @@ Contraste calculado: oscuro sobre violeta principal 4,16:1, apto para el texto g
 
 ## Tipografía y espacio
 
-Italiana 400 en wordmark y titulares; Manrope en texto, navegación y botones. Mismos tamaños, radios y márgenes que la versión aprobada. Contenedor 1160 px máximo, laterales 22/48 px, secciones 64/96 px. Header sticky de 72 px; anclas con margen de 100 px; footer con 110 px inferiores.
+Lora 500 en wordmark tipográfico, titulares y elementos display; Manrope en texto, precios, navegación y botones. Se ajustan solo las medidas tipográficas necesarias para que el nuevo ancho de letra encaje en celular. Contenedor 1160 px máximo, laterales 22/48 px, secciones 64/96 px. Header sticky de 72 px; anclas con margen de 100 px; footer con 110 px inferiores. Las menciones a Italiana en el historial siguiente describen las versiones anteriores.
 
 El logo real fue entregado por Tomas como «Logo cuadrado original de Magnolia.png», de 150 × 150 px. Se conserva el archivo original íntegro en `assets/logo-magnolia.png`. En el encabezado se muestra a 56 × 56 px junto al nombre tipográfico; por debajo de 371 px queda el logo solo para dar espacio al menú. En el footer se muestra el logo completo a su tamaño nativo de 150 × 150 px. También se utiliza como favicon. No se redibuja, recorta, recolorea ni amplía la imagen.
 
@@ -106,3 +106,11 @@ Dirección definida antes de editar el HTML, a pedido de Tomas. Refinamiento de 
 Verificación prevista: página renderizada a 430 px y escritorio, control adicional de 320 px, resumen y consulta tempranos, todos los botones en una línea, sin desborde ni superposiciones, FAQ y temario idénticos a la base, cinco destinos oficiales, fotos y logo sin cambios, contenido completo sin JavaScript y con movimiento reducido. Publicación en main, verificación en vivo y sin video.
 
 La revisión local pasó en 320, 430, 768 y 1440 px, sin errores de JavaScript ni desborde horizontal. En 430 × 932 px el resumen empieza a 439 px y el botón principal termina a 639 px: ambos están dentro de la primera pantalla. La FAQ conserva exactamente sus seis respuestas, el temario sus siete módulos y los cinco enlaces apuntan al destino oficial. Se probó el teclado en los acordeones, el salto del hero con margen de 100 px, movimiento reducido y lectura sin JavaScript. La inspección visual detectó y corrigió el contraste del hero móvil al adelantar su texto. No se cambian datos, condiciones comerciales ni destinos de consulta. Sin desvíos respecto de los ajustes autorizados.
+
+## Tipografía Lora — 12 de noviembre de 2026
+
+Decisión previa al código: aplicar la alternativa elegida por Tomas, Lora en peso 500, manteniendo Manrope para lectura, cifras de precio y acciones. Se reemplaza la familia display de forma consistente, incluido el nombre tipográfico junto al logo; el archivo del logo real no se altera. Fuente: [Lora en Google Fonts](https://fonts.google.com/specimen/Lora).
+
+Se conservan todos los textos, el HTML de contenido, el orden, los colores, las fotografías, los cinco destinos de WhatsApp y el JavaScript. Solo se modifican la carga de la fuente y sus reglas tipográficas; se permite ajustar tamaño, interlineado y ancho de títulos si la nueva métrica lo necesita para evitar cortes. Validar encabezado, hero, titulares internos y temario a 430 px y escritorio, con control adicional de 320 y 768 px. Sin video.
+
+Verificación local: Lora 500 descargada y renderizada, Manrope conservada. Capturas inspeccionadas de hero, capacitación y temario; controles en 320, 390, 430, 768 y 1440 px sin desborde ni colisión del nombre con el menú. No hicieron falta cambios de tamaño, interlineado o ancho: la composición existente admite Lora. A 430 × 932 px el botón principal sigue terminando a 639 px. El contenido HTML y el JavaScript son idénticos a la base ec4bc60; los cinco enlaces mantienen https://wa.link/4gjjbp. El logo original permanece intacto. Sin cambios adicionales ni video.
