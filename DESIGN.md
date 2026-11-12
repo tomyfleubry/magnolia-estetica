@@ -23,7 +23,9 @@ Contraste calculado: oscuro sobre violeta principal 4,16:1, apto para el texto g
 
 Italiana 400 en wordmark y titulares; Manrope en texto, navegación y botones. Mismos tamaños, radios y márgenes que la versión aprobada. Contenedor 1160 px máximo, laterales 22/48 px, secciones 64/96 px. Header sticky de 72 px; anclas con margen de 100 px; footer con 110 px inferiores.
 
-No existe assets/logo-magnolia.png ni assets/logo-magnolia.svg. Se conserva el wordmark en header y footer, sin dibujar ni aproximar la flor. **LOGO REAL PENDIENTE: falta el archivo de la clienta**.
+El logo real fue entregado por Tomas como «Logo cuadrado original de Magnolia.png», de 150 × 150 px. Se conserva el archivo original íntegro en `assets/logo-magnolia.png`. En el encabezado se muestra a 56 × 56 px junto al nombre tipográfico; por debajo de 371 px queda el logo solo para dar espacio al menú. En el footer se muestra el logo completo a su tamaño nativo de 150 × 150 px. También se utiliza como favicon. No se redibuja, recorta, recolorea ni amplía la imagen.
+
+Estas tres ubicaciones dan presencia a la identidad al entrar, al cerrar el recorrido y en la pestaña del navegador. Se evita repetir el logo dentro de las secciones. Verificado en 320, 390, 430 y 1440 px: menú sin superposición, logo proporcionado y sin desborde. El contenido de main, los cuatro enlaces de WhatsApp y su símbolo oficial permanecen idénticos. La copia del logo conserva el mismo hash que el archivo entregado.
 
 ## Fotografías
 
@@ -49,7 +51,7 @@ La foto nueva se abrió y eligió antes de editar HTML. Va a la izquierda de las
 8. Estudio: fondo lila, textos y datos intactos.
 9. FAQ: mismos seis acordeones y respuestas; encabezado encima de una única columna de hasta 900 px para evitar el vacío lateral al abrir respuestas. Apilado en móvil.
 10. Cierre: mismo texto, botón y datos.
-11. Footer: mismo wordmark y datos; sin nota de fotos.
+11. Footer: logo real y mismos datos; sin nota de fotos.
 
 ## Datos y destinos
 
@@ -74,7 +76,7 @@ La comparación automática confirmó que el resto de textos, datos, secciones y
 
 ## Desvíos y diferencias del pedido
 
-La ronda violeta no realizó cambios fuera de sus ocho puntos. La mini-corrida posterior agrega explícitamente el cuarto botón. Sigue pendiente el logo real. No hay desvíos adicionales.
+La ronda violeta no realizó cambios fuera de sus ocho puntos. La mini-corrida posterior agrega explícitamente el cuarto botón. El logo real ya fue entregado e incorporado por pedido posterior. No hay desvíos adicionales.
 
 ## Mini-corrida: tres faltantes — 11 de noviembre de 2026
 

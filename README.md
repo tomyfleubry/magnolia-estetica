@@ -21,4 +21,4 @@ Las tres fotografías son ilustrativas de Pexels, bajo su [licencia](https://www
 
 - Servicios: [Pexels 6187298](https://www.pexels.com/photo/person-s-hands-massaging-a-person-s-face-6187298/), Tima Miroshnichenko, optimizada en `assets/tratamiento-facial.webp`.
 
-El wordmark tipográfico se reemplazará por el logo propio cuando Magnolia lo facilite. Las fotos podrán reemplazarse por material propio autorizado.
+El logo real entregado por Magnolia se conserva íntegro en `assets/logo-magnolia.png` y se usa en el encabezado, footer y favicon. Las fotos podrán reemplazarse por material propio autorizado.
